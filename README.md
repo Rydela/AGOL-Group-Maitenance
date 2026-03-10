@@ -33,11 +33,11 @@ See [docs/contributing.md](docs/contributing.md) for the full workflow.
 ```
 agol-maintenance/
 ├── README.md
-├── Makefile                 ← converts .py → .ipynb
+├── Makefile                 ← converts .py to .ipynb
 ├── .gitignore
-├── scripts/                 ← canonical source (edit these)
+├── scripts/                 ← Origiinal .py script
 │   └── bulk_sharing.py
-├── notebooks/               ← auto-generated (do not edit)
+├── notebooks/               ← auto-generated for readability and upload to AGOL
 │   └── bulk_sharing.ipynb
 └── docs/
     └── contributing.md
